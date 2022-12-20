@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/gymapp.github.io/gymapp/static/css/main.cb8f5984.css",
+    "main.js": "/gymapp.github.io/gymapp/static/js/main.072d1a55.js",
+    "static/media/logo1.webp": "/gymapp.github.io/gymapp/static/media/logo1.06ab835c8f7b300953f7.webp",
+    "index.html": "/gymapp.github.io/gymapp/index.html",
+    "main.cb8f5984.css.map": "/gymapp.github.io/gymapp/static/css/main.cb8f5984.css.map",
+    "main.072d1a55.js.map": "/gymapp.github.io/gymapp/static/js/main.072d1a55.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.cb8f5984.css",
+    "static/js/main.072d1a55.js"
+  ]
+}
