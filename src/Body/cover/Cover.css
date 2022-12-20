@@ -1,0 +1,50 @@
+.cover_page{
+    width:100vw;
+    height:90vh;
+   display:grid;
+   grid-template-columns: 1fr 1fr;
+   margin-top:2rem;
+}
+
+.body_cover img{
+    width: 100%;
+    height: 90%;
+    border-radius:15px;
+}
+.explore a{
+    text-decoration: none;
+}
+.body_text{
+    text-align: center;
+    margin-top:8rem;
+   margin-right: 10px;
+}
+.head_text{
+    color:goldenrod;
+}
+.body_text p{
+    font-size:20px;
+    margin-top:1rem;
+}
+.explore{
+    margin-top:2rem;
+    width:12rem;
+    height:3rem;
+    background-color:transparent;
+    border: 2px solid goldenrod;
+    border-top-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+   cursor: pointer;
+}
+.explore a{
+    color:#fff;
+    font-family: 'Baloo Bhai 2', cursive;
+    font-size:20px;
+    
+}
+.explore:hover{
+    border: 2px solid #fff;
+}
+.explore a:hover{
+    color:goldenrod;
+}

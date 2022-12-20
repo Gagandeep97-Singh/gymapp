@@ -1,0 +1,52 @@
+.mean_box {
+  width: 100%;
+  overflow: hidden;
+}
+.cat_box {
+  margin: 3rem;
+  display: flex;
+  gap: 5rem;
+}
+.cat_card {
+    color: goldenrod;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+.cat_icon {
+  font-size: 4rem;
+}
+.cat_icon img{
+    width:10rem;
+    height:7rem;
+}
+.cat_title {
+  font-size: 1.4rem;
+  text-transform: capitalize;
+  text-align: center;
+}
+.scroll {
+  color: goldenrod;
+  font-size: 2rem;
+  width: 95%;
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 5rem;
+  gap: 1rem;
+}
+.scrolls{
+    height:2px;
+    color:black;
+}
+.left_scroll,
+.right_scroll {
+  cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    color: black;
+  }
+  .leftarrow{
+    font-size:2rem;
+  }

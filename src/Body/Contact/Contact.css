@@ -1,0 +1,79 @@
+.contact_mean{
+    padding:1rem 1rem;
+    width:50%;
+    height:70%;
+    background-color:white;
+    margin: auto;
+    margin-top:4rem;
+    border-radius: 15px;
+  
+}
+.contact_box{
+    padding:1rem 0;
+
+    display:grid;
+    grid-template-areas:'name name lastname lastname'
+                        'email email phone phone'
+                        'message message message message'
+                        '.. ..  .. btn';
+     gap:1rem;                   
+                        
+}     
+.text{
+    color:goldenrod;
+}
+.name{
+    grid-area:name;
+    width:18rem;
+    height:2rem;
+}
+.lastname{
+    grid-area:lastname;
+
+}
+.email{
+    grid-area:email;
+
+}
+.phone{
+    grid-area:phone;
+
+}
+.message{
+    grid-area:message;
+    width:92%;
+    /* margin: auto; */
+    height:6rem;
+    margin-top:1rem;
+    font-size:1.2rem;
+    outline:none;
+    border: none;
+    color:goldenrod;
+    border-bottom: 2px solid goldenrod;
+
+
+}
+.int{
+    width:16rem;
+    height:3rem;
+    font-size:1.2rem;
+    outline:none;
+    border: none;
+    border-bottom: 2px solid goldenrod;
+    color:goldenrod;
+}
+.btn_submit{
+    grid-area:btn;
+    margin:2rem 1rem 1rem 0;
+    width:12rem;
+    height:2.5rem;
+    background-color:goldenrod;
+    border-radius: 15px;
+    color: white;
+    border: none;
+    font-size:1.2rem;
+    cursor: pointer;
+}
+.error{
+    color:red;
+}

@@ -1,0 +1,48 @@
+.navbar ul{
+  display:flex;
+  gap:10vw;
+  margin:2rem 3rem;
+  /* flex-direction: row-reverse; */
+}
+li{
+  cursor: pointer;
+  list-style:none;
+}
+li a{
+  text-decoration: none;
+  color:white;
+  font-weight:bold;
+  font-size:20px;
+  padding-top: 10px;
+  letter-spacing:2px;
+  position: relative;
+}
+.logo{
+  width:150px;
+  height:150px;
+  border-radius:50%;
+}
+.nav{
+  margin:1rem;
+  display: grid;
+grid-template-columns: 300px 1fr;
+height:10vh;
+
+}
+.navbar ul li a::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height:2px;
+  transform: scaleX(0);
+  bottom: -5px;
+  left:0;
+  transform-origin: bottom right;
+  transition: transform 0.25s ease-out;
+  background-color:goldenrod;
+}
+.navbar ul li a:hover:before{
+  transform: scaleX(1);
+  transform-origin: bottom left;
+}
+

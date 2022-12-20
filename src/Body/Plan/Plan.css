@@ -1,0 +1,79 @@
+.plan_box{
+    margin:2rem auto;
+    width:80vw;
+    /* margin: auto; */
+    border-radius: 15px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding-top:2rem;
+    /* padding: 2rem 0 2rem 0; */   
+    
+}
+.plan{
+    width:18rem;
+    border: 2px solid white;
+    background-color:#fff;
+    color:rgb(60, 57, 57);
+    /* height:25rem; */
+    padding:1rem;
+}
+.plan_name{
+    text-align: center;
+    font-size:1.3rem;
+    font-weight:bold;
+}
+.price{
+    width:8rem;
+    background-color:orangered;
+    font-size: 2rem;
+    margin: auto;
+    margin-top:10px;
+    height:6rem;
+    border-radius:50%;
+    text-align:center;
+    padding-top:30px;
+}
+.plans{
+    padding:1rem;
+    font-size:25px;
+    display:flex;
+    flex-direction:column;
+    gap: 10px;
+}
+.yes{
+    color:green;
+    font-size:20px;
+}
+.no{
+    color:red;
+    font-size:20px;
+
+}
+.subs{
+    width:10rem;
+    height:2rem;
+    margin-left:2.5rem;
+    background-color:orangered;
+   font-size:15px;
+   color: rgb(59, 53, 53);
+   font-weight:bold;
+   text-transform: capitalize;
+   border: none;
+   cursor: pointer;
+}
+.pro{
+    background-color:rgb(36, 145, 188);
+    height:30rem;
+    border: none;
+    box-shadow: 10px 5px 10px rgb(41, 38, 38);
+    color: #fff;
+}
+.pro_price{
+    background-color: #fff;
+    color: black;
+}
+.pro_subs{
+    margin-top:2rem;
+    background-color:rgb(156, 209, 230);
+}

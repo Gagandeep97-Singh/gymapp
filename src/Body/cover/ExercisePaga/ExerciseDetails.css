@@ -1,0 +1,44 @@
+.page{
+    width:90vw;
+    margin:auto;
+    margin:5rem;
+}
+.detail_page{
+    display: flex;
+    justify-content:space-between;
+}
+
+.img_box{
+    width:40vw;
+  
+}
+.img_box img{
+    width: 100%;
+    height: 100%;
+    border-radius:15px;
+}
+.name{
+    color: goldenrod;
+    text-transform: capitalize;
+    margin-bottom:15px;
+}
+.para_detail{
+    text-align:center;
+    font-size:16px;
+}
+.icon_box{
+    display:flex;
+    margin-top: 2rem;
+    gap: 2rem;
+    text-transform: capitalize;
+
+}
+.icon_img img{
+    width:5rem;
+    height:5rem;
+}
+.icon_text{
+    color: goldenrod;
+    font-weight:normal;
+    margin-top:1rem;
+}

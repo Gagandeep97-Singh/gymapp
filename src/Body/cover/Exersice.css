@@ -1,0 +1,30 @@
+.exersice-text {
+  text-align: center;
+  font-size: 2rem;
+  color: goldenrod;
+  letter-spacing: 2px;
+  text-transform:lowercase;
+}
+.input_section {
+  margin: 1rem;
+}
+.search_bar {
+  text-align: center;
+  margin-top: 1rem;
+  gap: 0;
+}
+.search_exersice {
+  width: 70vw;
+  height: 2rem;
+  margin: auto;
+  background-color:#fff;
+  color:black;
+}
+.search_btn {
+  width: 8rem;
+  height: 2.4rem;
+  background-color: goldenrod;
+  font-size: 1rem;
+  color:black;
+  cursor: pointer;
+}
